@@ -1,1 +1,2 @@
-# Write your solution here
+n=input("what is your name?")
+print("!"+n+"!"+n+"!")
