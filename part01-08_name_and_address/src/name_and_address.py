@@ -1,1 +1,7 @@
-# Write your solution here
+name=input("Given name:")
+fn=input("Family name:")
+sa=input("Street address:")
+cp=input("City and postal code:")
+print(name+" "+fn)
+print(sa)
+print(cp)
