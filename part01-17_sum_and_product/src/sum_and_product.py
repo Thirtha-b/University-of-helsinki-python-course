@@ -1,1 +1,6 @@
-# Write your solution here
+num1=int(input("write first number:"))
+print("Number 1:",num1)
+num2=int(input("Write second number:"))
+print("Number 2:",num2)
+print("The sum of the numbers:",num1+num2)
+print("The product of the numbers:",num1*num2)
