@@ -211,3 +211,7 @@ checksum = "10757957b9ad939cc589718677bb1005"
 [exercises.part02-22_working_with_numbers]
 id = 306267
 checksum = "c48ef551bc1b82ade8f07e63b2673e7f"
+
+[exercises.part03-14_underlining]
+id = 306310
+checksum = "106cb15748ce0686edf7462fb3301388"
