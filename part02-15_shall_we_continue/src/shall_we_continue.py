@@ -1,7 +1,7 @@
 # Write your solution here
 while True:
     print("hi")
-    g = input("Shall we continue? ")
-    if g == "no":
+    a = input("Shall we continue? ")
+    if a == "no":
         print("okay then")
         break
