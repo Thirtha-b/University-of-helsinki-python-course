@@ -1,6 +1,6 @@
 print("Are you ready?")
-number = int(input("Please type in a number: "))
-while number > 0:
-    print(number)
-    number -= 1
+numbers = int(input("Please type in a number: "))
+while numbers > 0:
+    print(numbers)
+    numbers -= 1
 print("Now!")
