@@ -6,7 +6,7 @@ positive = 0
 negative = 0
 
 while True:
-    number = int(input("Number: "))
+    number = int(input("Numbers: "))
 
     if number == 0:
         break
