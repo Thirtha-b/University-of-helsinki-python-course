@@ -1,4 +1,4 @@
-name1=input("enter name:")
+name1=input("enter a name:")
 age1=int(input("enter age:"))
 name2=input("enter name:")
 age2=int(input("enter age:"))
