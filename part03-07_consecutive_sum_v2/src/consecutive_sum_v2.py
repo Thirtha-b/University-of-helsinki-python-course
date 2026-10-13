@@ -1,7 +1,13 @@
 limit = int(input("Limit: "))
-sum_numbers = 0
-n = 1
-while sum_numbers < limit:
-    sum_numbers += n
-    n += 1
-print(sum_numbers)
+current_sum = 0
+number = 1
+calculation_str = ""
+while current_sum < limit:
+    current_sum += number
+    if calculation_str == "":
+        calculation_str += str(number)
+    else:
+        calculation_str += f" + {number}"
+        
+    number += 1
+print(f"The consecutive sum: {calculation_str} = {current_sum}")
