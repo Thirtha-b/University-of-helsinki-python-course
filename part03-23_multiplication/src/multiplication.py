@@ -1,6 +1,4 @@
-limit = int(input("Please type in a number: "))
-i = 0
-while i < limit:
- print(i)
- i += 2
-print(limit)
+n = int(input("Please type in a number: "))
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        print(f"{i} x {j} = {i * j}")
