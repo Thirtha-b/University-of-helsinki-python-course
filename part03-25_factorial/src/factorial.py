@@ -1,9 +1,13 @@
-limit = int(input("Please type in a number: "))
-i = 1
-while i <= limit:
-    if i + 1 <= limit:
-        print(i + 1)
-        print(i)
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+while True:
+    num = int(input("Please type in a number: "))
+    if num <= 0:
+        print("Thanks and bye!")
+        break
     else:
-        print(i)
-    i += 2
+        print(f"The factorial of the number {num} is {factorial(num)}")
